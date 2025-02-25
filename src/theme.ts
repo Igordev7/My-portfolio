@@ -4,14 +4,14 @@ import createTheme from "@mui/material/styles/createTheme";
 let theme = createTheme({
     palette: {
       primary: {
-        main: "#000080",
+        main: '#2F4F4F',
       },
       secondary: {
-        main: "#00BFFF",
+        main: '#00BFFF',
       },
     },
     typography:{
-        fontFamily: "Helvetica Neue",
+        fontFamily: 'Helvetica Neue',
     }
   });
   theme = responsiveFontSizes(theme);
